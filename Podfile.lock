@@ -1,0 +1,20 @@
+PODS:
+  - HotKey (0.1.2)
+  - Yaml (3.4.4)
+
+DEPENDENCIES:
+  - HotKey
+  - Yaml
+
+SPEC REPOS:
+  trunk:
+    - HotKey
+    - Yaml
+
+SPEC CHECKSUMS:
+  HotKey: ad59450195936c10992438c4210f673de5aee43e
+  Yaml: 52831fc1d9ac2db4ddf6d7562993457127256ca6
+
+PODFILE CHECKSUM: 978fa48c3654dbbe21a2a48818c0afbb21fba8ca
+
+COCOAPODS: 1.11.3

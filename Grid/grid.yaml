@@ -1,0 +1,132 @@
+- key: "CMD_ALT_KEYPAD0"
+  positions:
+    - y: 0
+      x: 0
+      w: 1
+      h: 1
+
+- key: "CMD_ALT_KEYPAD7"
+  positions:
+    - y: 0
+      x: 0
+      w: 0.26
+      h: 0.333333333333
+
+- key: "CMD_ALT_KEYPAD4"
+  positions:
+    - y: 0.333333333333
+      x: 0
+      w: 0.26
+      h: 0.333333333333
+
+- key: "CMD_ALT_KEYPAD1"
+  positions:
+    - y: 0.666666666666
+      x: 0
+      w: 0.26
+      h: 0.333333333333
+
+- key: "CMD_ALT_KEYPAD8"
+  positions:
+    - y: 0
+      x: 0.26
+      w: 0.48
+      h: 0.666666666666
+
+- key: "CMD_ALT_KEYPAD5"
+  positions:
+    - y: 0
+      x: 0.26
+      w: 0.48
+      h: 1
+
+- key: "CMD_ALT_KEYPAD2"
+  positions:
+    - y: 0.333333333333
+      x: 0.26
+      w: 0.48
+      h: 0.666666666666
+
+- key: "CMD_ALT_KEYPAD9"
+  positions:
+    - y: 0
+      x: 0.74
+      w: 0.26
+      h: 0.333333333333
+
+- key: "CMD_ALT_KEYPAD6"
+  positions:
+    - y: 0.333333333333
+      x: 0.74
+      w: 0.26
+      h: 0.333333333333
+
+- key: "CMD_ALT_KEYPAD3"
+  positions:
+    - y: 0.666666666666
+      x: 0.74
+      w: 0.26
+      h: 0.333333333333
+
+- key: "CMD_ALT_LEFTARROW"
+  positions:
+    - y: 0
+      x: 0.20
+      w: 0.30
+      h: 1
+
+- key: "CMD_ALT_RIGHTARROW"
+  positions:
+    - y: 0
+      x: 0.50
+      w: 0.30
+      h: 1
+
+
+
+
+
+
+
+- key: "CTRL_CMD_ALT_KEYPAD7"
+  positions:
+    - y: 0
+      x: 0
+      w: 0.5
+      h: 0.5
+
+- key: "CTRL_CMD_ALT_KEYPAD4"
+  positions:
+    - y: 0
+      x: 0
+      w: 0.5
+      h: 1
+
+- key: "CTRL_CMD_ALT_KEYPAD1"
+  positions:
+    - y: 0.5
+      x: 0
+      w: 0.5
+      h: 0.5
+
+
+- key: "CTRL_CMD_ALT_KEYPAD9"
+  positions:
+    - y: 0
+      x: 0.5
+      w: 0.5
+      h: 0.5
+
+- key: "CTRL_CMD_ALT_KEYPAD6"
+  positions:
+    - y: 0
+      x: 0.5
+      w: 0.5
+      h: 1
+
+- key: "CTRL_CMD_ALT_KEYPAD3"
+  positions:
+    - y: 0.5
+      x: 0.5
+      w: 0.5
+      h: 0.5
