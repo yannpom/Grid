@@ -1,132 +1,150 @@
-- key: "CMD_ALT_KEYPAD0"
-  positions:
-    - y: 0
-      x: 0
-      w: 1
-      h: 1
+define:
+  - &x1 0.26
+  - &x2 0.74
+  
+  - &w0 0.26
+  - &w1 0.48
+  - &w2 0.26
+  
+  - &y1 0.33
+  - &y2 0.50
+  - &y3 0.66
 
-- key: "CMD_ALT_KEYPAD7"
-  positions:
-    - y: 0
-      x: 0
-      w: 0.26
-      h: 0.333333333333
+  - &h1 0.33
+  - &h2 0.5
+  - &h3 0.66
 
-- key: "CMD_ALT_KEYPAD4"
-  positions:
-    - y: 0.333333333333
-      x: 0
-      w: 0.26
-      h: 0.333333333333
+actions:
+  - key: "CMD_ALT_1"
+    name: "Scenario #1"
+    scenario:
+      - app: 'com.apple.finder'
+        position: [0.0000, 0.0000, 0.5000, 0.4994, 1]
+      - app: 'com.spotify.client'
+        position: [0.0000, 0.0000, 0.2599, 0.3293, 2]
 
-- key: "CMD_ALT_KEYPAD1"
-  positions:
-    - y: 0.666666666666
-      x: 0
-      w: 0.26
-      h: 0.333333333333
-
-- key: "CMD_ALT_KEYPAD8"
-  positions:
-    - y: 0
-      x: 0.26
-      w: 0.48
-      h: 0.666666666666
-
-- key: "CMD_ALT_KEYPAD5"
-  positions:
-    - y: 0
-      x: 0.26
-      w: 0.48
-      h: 1
-
-- key: "CMD_ALT_KEYPAD2"
-  positions:
-    - y: 0.333333333333
-      x: 0.26
-      w: 0.48
-      h: 0.666666666666
-
-- key: "CMD_ALT_KEYPAD9"
-  positions:
-    - y: 0
-      x: 0.74
-      w: 0.26
-      h: 0.333333333333
-
-- key: "CMD_ALT_KEYPAD6"
-  positions:
-    - y: 0.333333333333
-      x: 0.74
-      w: 0.26
-      h: 0.333333333333
-
-- key: "CMD_ALT_KEYPAD3"
-  positions:
-    - y: 0.666666666666
-      x: 0.74
-      w: 0.26
-      h: 0.333333333333
-
-- key: "CMD_ALT_LEFTARROW"
-  positions:
-    - y: 0
-      x: 0.20
-      w: 0.30
-      h: 1
-
-- key: "CMD_ALT_RIGHTARROW"
-  positions:
-    - y: 0
-      x: 0.50
-      w: 0.30
-      h: 1
+  - key: "CMD_ALT_2"
+    name: "Scenario #2"
+    scenario:
+      - app: 'com.apple.finder'
+        position: [0.0000, 0.0000, 0.5000, 0.4994, 2]
+      - app: 'com.spotify.client'
+        position: [0.0000, 0.0000, 0.2599, 0.3293, 3]
 
 
+  - key: "CMD_ALT_KEYPAD0"
+    name: "Fullscreen"
+    positions:
+      - [0, 0, 1, 1]
+      - [0.05, 0.05, .90, .901]
+
+  - key: ["CMD_ALT_KEYPAD7", "CMD_ALT_Y"]
+    name: "Top Left"
+    positions:
+      - [0, 0, *w0, *h1]
+      - [0, 0, *w0, *h2]
+      - [0, 0, *w0, *h3]
+  - key: ["CMD_ALT_KEYPAD4", "CMD_ALT_H"]
+    name: "Left"
+    positions:
+      - [0, *y1, *w0, *h1]
+      - [0, .05, *w0, .90]
+      
+  - key: ["CMD_ALT_KEYPAD1", "CMD_ALT_N"]
+    name: "Bottom Left"
+    positions:
+      - [0, *y3, *w0, *h1]
+      - [0, *y2, *w0, *h2]
+      - [0, *y1, *w0, *h3]
+
+  - key: ["CMD_ALT_KEYPAD8", "CMD_ALT_U"]
+    name: "Top"
+    positions:
+      - [*x1, 0, *w1, *h2]
+      - [*x1, 0, *w1, *h3]
+
+  - key: ["CMD_ALT_KEYPAD5", "CMD_ALT_J"]
+    name: "Center"
+    positions:
+      - [*x1, 0, *w1, 1]
+      - [.15, 0, .70, 1]
+
+  - key: ["CMD_ALT_KEYPAD2", "CMD_ALT_M"]
+    name: "Bottom"
+    positions:
+      - [*x1, *y2, *w1, *h2]
+      - [*x1, *y1, *w1, *h3]
+
+  - key: ["CMD_ALT_KEYPAD9", "CMD_ALT_I"]
+    name: "Top Right"
+    positions:
+      - [*x2, 0, *w2, *h1]
+      - [*x2, 0, *w2, *h2]
+      - [*x2, 0, *w2, *h3]
+
+  - key: ["CMD_ALT_KEYPAD6", "CMD_ALT_K"]
+    name: "Right"
+    positions:
+      - [*x2, *y1, *w2, *h1]
+      - [*x2, .05, *w2, .90]
+
+  - key: ["CMD_ALT_KEYPAD3", "CMD_ALT_COMMA"]
+    name: "Bottom Right"
+    positions:
+      - [*x2, *y3, *w2, *h1]
+      - [*x2, *y2, *w2, *h2]
+      - [*x2, *y1, *w2, *h3]
+
+# MBP
+  - key: "CMD_ALT_F"
+    name: "Fullscreen"
+    positions:
+      - [0, 0, 1, 1]
+      - [0.05, 0.05, .90, .901]
+
+  - key: "CMD_ALT_LEFTARROW"
+    name: "Center Left"
+    positions:
+      - [.18, 0, .32, 1]
+      - [.10, 0, .40, 1]
+      - [0, 0, .50, 1]
+
+  - key: "CMD_ALT_CTRL_LEFTARROW"
+    name: "Left"
+    positions:
+      - [0, 0, .50, 1]
+      - [.10, 0, .40, 1]
+
+  - key: "CMD_ALT_RIGHTARROW"
+    name: "Center Right"
+    positions:
+      - [.5, 0, .32, 1]
+      - [.5, 0, .40, 1]
+      - [.5, 0, .50, 1]
+
+  - key: "CMD_ALT_CTRL_RIGHTARROW"
+    name: "Right"
+    positions:
+      - [.5, 0, .50, 1]
+      - [.5, 0, .40, 1]
+
+  - key: "CMD_ALT_UPARROW"
+    name: "1/4 Top Left/Right"
+    positions:
+      - [0, 0, .5, .5]
+      - [.5, 0, .5, .5]
+
+  - key: "CMD_ALT_DOWNARROW"
+    name: "1/4 Bottom Left/Right"
+    positions:
+      - [0, .5, .5, .5]
+      - [.5, .5, .5, .5]
+
+  - key: "CMD_ALT_O"
+    name: "Switch screen"
+    positions:
+      - [0.25, .25, .5, .5, 1]
+      - [0.25, .25, .5, .5, 2]
+      
 
 
-
-
-
-- key: "CTRL_CMD_ALT_KEYPAD7"
-  positions:
-    - y: 0
-      x: 0
-      w: 0.5
-      h: 0.5
-
-- key: "CTRL_CMD_ALT_KEYPAD4"
-  positions:
-    - y: 0
-      x: 0
-      w: 0.5
-      h: 1
-
-- key: "CTRL_CMD_ALT_KEYPAD1"
-  positions:
-    - y: 0.5
-      x: 0
-      w: 0.5
-      h: 0.5
-
-
-- key: "CTRL_CMD_ALT_KEYPAD9"
-  positions:
-    - y: 0
-      x: 0.5
-      w: 0.5
-      h: 0.5
-
-- key: "CTRL_CMD_ALT_KEYPAD6"
-  positions:
-    - y: 0
-      x: 0.5
-      w: 0.5
-      h: 1
-
-- key: "CTRL_CMD_ALT_KEYPAD3"
-  positions:
-    - y: 0.5
-      x: 0.5
-      w: 0.5
-      h: 0.5

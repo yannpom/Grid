@@ -1,20 +1,24 @@
 PODS:
+  - FileWatcher (0.2.1)
   - HotKey (0.1.2)
   - Yaml (3.4.4)
 
 DEPENDENCIES:
+  - FileWatcher
   - HotKey
   - Yaml
 
 SPEC REPOS:
   trunk:
+    - FileWatcher
     - HotKey
     - Yaml
 
 SPEC CHECKSUMS:
+  FileWatcher: c7d30f1dc6e3c12025d940d90804ecc997960f81
   HotKey: ad59450195936c10992438c4210f673de5aee43e
   Yaml: 52831fc1d9ac2db4ddf6d7562993457127256ca6
 
-PODFILE CHECKSUM: 978fa48c3654dbbe21a2a48818c0afbb21fba8ca
+PODFILE CHECKSUM: c12454c02b9538a23b5cc7f309c69a7197c9a73a
 
 COCOAPODS: 1.11.3
