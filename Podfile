@@ -6,5 +6,6 @@ target 'Grid' do
   use_frameworks!
   pod 'HotKey'
   pod 'Yaml'
+  pod 'FileWatcher'
 end
 
